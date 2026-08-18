@@ -1,18 +1,12 @@
 {
 ## spider
-    // "spider": "./spider.jar;md5;7e2f6ef2a5dce8b152dadefa6c7d4ba7",
-	//"jar": "./spider.jar;md5;7e2f6ef2a5dce8b152dadefa6c7d4ba7",
-	//"spider": "./Jar/7080.jar;md5;dbe639527df26d6a0fd4f7c9256be475",
-	//"jar": "./tvkj.jar",
-	//"spider": "https://github.com/heroaku/TB/raw/refs/heads/main/OG/spider.jar",
 	"spider": "./spider.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
-//"spider": "./fm.jar;md5;965c0ecb144c99c35f39e4a036712a3a",
 
 ##主頁壁紙
 "wallpaper": "https://api.likepoems.com/img/bing",
 	
 "sites":[
-	   {"key": "drpy_js_test","name": " 🎑js测试[DRPY]","type": 3,"api": "https://github.com/heroaku/drpy/raw/master/libs/drpy2.min.js","ext": "https://github.com/heroaku/TVboxo/raw/main/JS/%E6%A8%A1%E7%89%88/jstest.js"},	
+   {"key": "drpy_js_test","name": " 🎑js测试[DRPY]","type": 3,"api": "https://github.com/heroaku/drpy/raw/master/libs/drpy2.min.js","ext": "https://github.com/heroaku/TVboxo/raw/main/JS/%E6%A8%A1%E7%89%88/jstest.js"},	
    {"key":"csp_xBPQ_test测试","name":" 🍂测试 xBPQ","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/heroaku/TVboxo/raw/main/XBPQ/test/xbpqtest.json"},
    {"key": "drpy_js_p_test","name": " 🌺pl测试[JS]","type": 3, "api": "https://github.com/heroaku/TVboxo/raw/refs/heads/main/JS/drpy2.min.js","ext": "https://github.com/heroaku/TVboxo/raw/main/JS/%E6%A8%A1%E7%89%88/jstest.js"},
    {"key": "drpy_js_n_test","name": " 🌺NJS测试[JS]","type": 3,"jar": "https://github.com/heroaku/TVboxo/raw/refs/heads/main/Jar/NJS.jar;md5;A81AFC9C6A39CBD3DE57DD8FCA9031E3", "api": "https://github.com/heroaku/TVboxo/raw/refs/heads/main/JS/drpy2.min.js","ext": "https://github.com/heroaku/TVboxo/raw/main/JS/%E6%A8%A1%E7%89%88/jstest.js"},
@@ -46,8 +40,7 @@
             "api": "csp_Douban",
             "searchable": 0
         },
-{"key": "apple","name": "🎳┃apple┃影视","type": 3,"api": "./JS/apple.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
-	{"key":"py_爱盈_APP","name":" 🧿爱盈(QIJI)","type":3,"api":"./Py/app/qijiapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt","api":"/api.php/qijiappapi","datakey":"sda1231sasddad21","dataiv":"sda1231sasddad21"}},
+{"key":"py_爱盈_APP","name":" 🧿爱盈(QIJI)","type":3,"api":"./Py/app/qijiapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt","api":"/api.php/qijiappapi","datakey":"sda1231sasddad21","dataiv":"sda1231sasddad21"}},
 {"key":"py_顾我_APP","name":" 🧿顾我(QIJI)","type":3,"api":"./Py/app/qijiapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt","api":"/api.php/qijiappapi","datakey":"ca94b06ca3c7d80e","dataiv":"ca94b06ca3c7d80e"}},
 {"key":"py_小猪_APP","name":" 🧿小猪(QIJI)","type":3,"api":"./Py/app/qijiapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt","api":"/api.php/qijiappapi","datakey":"seb5tq9mykp2w9ry","dataiv":"seb5tq9mykp2w9ry"}},
 {"key":"py_魔方_APP","name":" 🧿魔方(GET)","type":3,"api":"./Py/app/getapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://www.mfsp4k.top","api":"/api.php/getappapi","datakey":"1234567887654321","dataiv":"1234567887654321"}},
@@ -317,8 +310,6 @@
   "filterable": 1,
   "ext": "./JSON/dytt_filter.json"
 },
-	{"key":"csp_Gz360","name":"🍉瓜子","type":3,"api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_LiteApple","name":"🍎苹果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"巧技二","name":"💢聚搜┃仅搜索","type":3,"api":"csp_qiao2","searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"},
 {"key":"天天","name":"⛅天天","type":3,"api":"csp_TTian","searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg0939791h1l3888jig44gi291li"},
 {"key":"追剧","name":"✈追剧","type":3,"api":"csp_TTian","searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg0939791h1l2681i6g94li291li"},
@@ -513,9 +504,7 @@
         "ua": ""
       }
     },
-    //{"key": "影视","name": "映射｜APP","type": 3,"quickSearch": 1,"api": "csp_AppQi","ext": {"url": "","site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt","dataKey": "sada21321sdq231d","dataIv": "sada21321sdq231d","deviceId": "","version": "","ua": ""}},
-    //{"key": "影视","name": "☀映射🔹4k源","type": 3,"quickSearch": 1,"api": "csp_AppQi","ext": {  "url": "",  "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",  "dataKey": "sada21321sdq231d",  "dataIv": "sada21321sdq231d",  "deviceId": "",  "version": "",  "ua": ""}    },
-	    {
+	{
       "key": "小猪",
       "name": "小猪丨APP",
       "type": 3,
@@ -1290,24 +1279,6 @@
       "name": "奇优｜影视",
       "type": 3,
       "api": "csp_Qiyou"
-    },
-    {
-      "key": "苹果影视",
-      "name": "苹果｜影视",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-	 {
-      "key": "瓜子影视",
-      "name": "瓜子｜影视",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
 	 {
       "key": "修罗",
